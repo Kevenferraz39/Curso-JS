@@ -50,17 +50,4 @@ Neste curso utilizei os seguintes softewres:
 - Node Js;
 - Google Chrome;
 
-<h2>Dev's</h2>
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Kevenferraz39">
-          <img src="view/_img/eu.jpeg" width="100px;" alt="Foto do Keven Ferraz"/><br>
-        <sub>
-          <b>Keven Ferraz</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
