@@ -8,7 +8,7 @@ Esse epositorio esta sendo desenvolvido para Conter as atividades desenvolvidas 
 
 
 <h4 align="center">
- <a href="https://www.cursoemvideo.com/curso/javascript/aulas/conhecendo-o-javascript/modulos/como-chegamos-ate-aqui/" id="btn">Clique para visitar o Curso</a>
+ <a href="https://www.cursoemvideo.com/curso/javascript/aulas/conhecendo-o-javascript/modulos/como-chegamos-ate-aqui/" id="btn">Clique para visitar o curso</a>
 </h4>
 
 ## 📚 Seções
@@ -23,26 +23,12 @@ O site é composto por seis seções:
 
 ## 📂Tecnologias utilizadas
 
-Para o desenvolvimento deste site utilizei as seguintes tecnologias:
+Neste curso utilizei as seguintes tecnologias:
 
 - HTML;
 - CSS;
-- PHP;
-- SQL;
-- API;
 - Java Script;
-- SVG.
 
-## 🌐 Plataforma utilizadas
-Para desenvolvimento deste site utilizamos algumas plataformas que nos auxiliaram nos conceitos de desing:
-
-- https://www.canva.com;
-- https://www.remove.bg;
-- https://www.figma.com;
-- https://www.tawk.to;
-- https://getbootstrap.com;
-- https://www.w3schools.com.
-  
 <h2>Dev's</h2>
 
 <table>
