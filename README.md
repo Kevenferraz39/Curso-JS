@@ -25,11 +25,14 @@ Atividades desenvolvidas:
 - Tratamento de dados;
 - Operacoes aritimetica;
 #
-- **Atividade:** ...;
+- **Modulo C:** ...;
 #
-- **Atividade:** ...;
+- **Modulo D:** ...;
 #
-- **Atividade:** ...;
+- **Modulo E:** ...;
+#
+- **Modulo F:** ...;
+
 
 ## 📂Tecnologias utilizadas
 
