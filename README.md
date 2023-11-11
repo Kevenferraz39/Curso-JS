@@ -24,8 +24,11 @@ Atividades desenvolvidas:
 - Armazenamento de dados;
 - Tratamento de dados;
 - Operacoes aritimetica;
+#
 - **Atividade:** ...;
+#
 - **Atividade:** ...;
+#
 - **Atividade:** ...;
 
 ## 📂Tecnologias utilizadas
