@@ -19,7 +19,7 @@ Atividades desenvolvidas:
 - Apresentacao do curso;
 - Download dos materiais necessarios;
 - Exercicio-1;
-
+#
 - **Modulo B:**
 - Armazenamento de dados;
 - Tratamento de dados;
