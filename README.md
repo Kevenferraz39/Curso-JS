@@ -11,15 +11,15 @@ Esse epositorio esta sendo desenvolvido para Conter as atividades desenvolvidas 
  <a href="https://www.cursoemvideo.com/curso/javascript/aulas/conhecendo-o-javascript/modulos/como-chegamos-ate-aqui/" id="btn">Clique para visitar o curso</a>
 </h4>
 
-## 📚 Seções
+## 📚 Atividades
 
-O site é composto por seis seções:
+Atividades desenvolvidas:
 
-- **Home:** Nele temos o menu um gif e um chat;
-- **Faleconosco:** Nessa seção temos as redes sociais do projeto e nosso chatbot;
-- **Desenvolvedores:** Apresenta quem sao os dev'se deixamos todas as nossas redes sociais;
-- **Exercicios:** Nessa seção contem todo o conteudo proposto que sao as atividades praticas;
-- **Login:** Nessa seção temos o nosso sistema de login e cadastro;
+- **Atividade:** ...;
+- **Atividade:** ...;
+- **Atividade:** ...;
+- **Atividade:** ...;
+- **Atividade:** ...;
 
 ## 📂Tecnologias utilizadas
 
@@ -28,6 +28,14 @@ Neste curso utilizei as seguintes tecnologias:
 - HTML;
 - CSS;
 - Java Script;
+
+## 📂Softewres utilizados
+
+Neste curso utilizei os seguintes softewres:
+
+- Visual Studio Code;
+- Node Js;
+- Google Chrome;
 
 <h2>Dev's</h2>
 
