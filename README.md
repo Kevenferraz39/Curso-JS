@@ -15,8 +15,15 @@ Esse epositorio esta sendo desenvolvido para Conter as atividades desenvolvidas 
 
 Atividades desenvolvidas:
 
-- **Atividade:** ...;
-- **Atividade:** ...;
+- **Modulo A:** 
+- Apresentacao do curso;
+- Download dos materiais necessarios;
+- Exercicio-1;
+
+- **Modulo B:**
+- Armazenamento de dados;
+- Tratamento de dados;
+- Operacoes aritimetica;
 - **Atividade:** ...;
 - **Atividade:** ...;
 - **Atividade:** ...;
