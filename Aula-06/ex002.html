@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--faveincon-->
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
+    <!--faveincon-->
+    <link rel="stylesheet" href="../css/estilo-texto.css">
+    <title>Aula-06</title>
+</head>
+<body>
+    <h2>Exercicio-002</h2><br><br><br>
+    <button onclick="MudarPagina()" id="proximo">Next</button>
+    <script>
+        function MudarPagina() {
+            var novaPagina = "/Aula-06/ex003.html";//Definir para que pagina esse botao ira levar 
+
+            window.location.href = novaPagina;//Mudar para a proxima pagina
+        }
+    </script>
+<script>
+    var nome = window.prompt("Qual e seu nome?")//a variavel nome esta recebendo oque eu digitei no prompt e armazenando 
+    alert('E um grande prazer em te conhecer, '+ nome + '!')// concatenacao estou pedindo para que o alert exiba oque esta na minha variavel 
+</script>
+</body>
+</html>
