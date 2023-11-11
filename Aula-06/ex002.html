@@ -11,14 +11,25 @@
 </head>
 <body>
     <h2>Exercicio-002</h2><br><br><br>
+    <button onclick="VoltaPagina()" id="volta">Voltar</button>
     <button onclick="MudarPagina()" id="proximo">Next</button>
-    <script>
-        function MudarPagina() {
-            var novaPagina = "/Aula-06/ex003.html";//Definir para que pagina esse botao ira levar 
+    <!--mudar de pagina-->
+        <script>
 
-            window.location.href = novaPagina;//Mudar para a proxima pagina
-        }
-    </script>
+            function VoltaPagina(){
+                    var voltaPagina = "/Aula-04/ex001.html"//Definir para que pagina esse botao ira levar
+                    window.location.href = voltaPagina;//Voltar para pagina anterior
+                }
+                    //esta funcao abaixo passar para a proxima pagina
+                    
+            function MudarPagina() {
+                var novaPagina = "/Aula-06/ex003.html";//Definir para que pagina esse botao ira levar 
+
+                window.location.href = novaPagina;//Mudar para a proxima pagina
+            }
+
+        </script>
+    <!--mudar de pagina-->
 <script>
     var nome = window.prompt("Qual e seu nome?")//a variavel nome esta recebendo oque eu digitei no prompt e armazenando 
     alert('E um grande prazer em te conhecer, '+ nome + '!')// concatenacao estou pedindo para que o alert exiba oque esta na minha variavel 

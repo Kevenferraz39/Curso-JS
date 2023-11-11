@@ -12,7 +12,18 @@
 <body>
     <h3>Exemplo 001</h3>
         <span>Ola, mundo!</span>
-
+        <button onclick="MudarPagina()" id="proximo">Next</button>
+        <!--mudar de pagina-->
+            <script>
+                       
+                function MudarPagina() {
+                    var novaPagina = "/Aula-06/ex002.html";//Definir para que pagina esse botao ira levar 
+    
+                    window.location.href = novaPagina;//Mudar para a proxima pagina
+                }
+    
+            </script>
+        <!--mudar de pagina-->
         <script>
             // O ";" nao e mais necessario nos fins dos codigos e comandos JS
 
