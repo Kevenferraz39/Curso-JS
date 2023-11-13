@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--faveincon-->
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
+    <!--faveincon-->
+    <link rel="stylesheet" href="../css/estilo-texto.css">
+    <title>Aula-09</title>
+    
+    <style>
+      div{
+        width: 150px;
+        padding: 5px;
+        text-align: center;
+        background-color: yellow;
+        color: black;
+        font-weight: bold;
+        border-style: outset;
+        border-color: gold;
+        border-radius: 5px;
+      }
+    </style>
+</head>
+<body>
+    <p>Instale a extensao Watch in Chrome no seu Visual studio code</p>
+    <br><br><br>
+    <center><h1>Iniciando estudos com DOM.</h1></center>
+    <br><p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <b>DOM</b> em <b>JS</b>!</p>
+    <div id="msg">Clique em mim</div><br>
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]//esse numero 0 entre os couchets representa que estou selecionando o primeiro paragrafo, se fosse o segundo seria [1] e assim sicessivamente
+        document.write("Esta escrito assim: "+ p1.innerHTML)  
+        p1.style.color = 'red'
+        /* 
+        var d = document.getElementById('msg')
+        d.style.color ='blue'
+        */
+        var d = document.querySelector('div#msg')
+        d.style.color = 'red'
+    </script>
+</body>
+</html>

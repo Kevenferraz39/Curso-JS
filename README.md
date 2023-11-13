@@ -25,7 +25,11 @@ Atividades desenvolvidas:
 - Tratamento de dados;
 - Operacoes aritimetica;
 #
-- **Modulo C:** ...;
+- **Modulo C:** 
+- Conhecendo o DOM (
+  Document Object Model);
+- Arvore DOM;
+- Manipundo DOM;
 #
 - **Modulo D:** ...;
 #
