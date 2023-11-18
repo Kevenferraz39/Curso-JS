@@ -30,6 +30,26 @@
     <br><p>Aqui vai o resultado</p>
     <p>Aprendendo a usar <b>DOM</b> em <b>JS</b>!</p>
     <div id="msg">Clique em mim</div><br>
+    <button onclick="VoltaPagina()" id="volta">Voltar</button>
+    <button onclick="MudarPagina()" id="proximo">Next</button>
+        <!--mudar de pagina-->
+        <script>
+
+          function VoltaPagina(){
+                  var voltaPagina = "/Aula-06/teste2.html"//Definir para que pagina esse botao ira levar
+                  window.location.href = voltaPagina;//Voltar para pagina anterior
+              }
+                  //esta funcao abaixo passar para a proxima pagina
+  
+          function MudarPagina() {
+              var novaPagina = "/Aula-10/ex010.html";//Definir para que pagina esse botao ira levar 
+  
+              window.location.href = novaPagina;//Mudar para a proxima pagina
+          }
+  
+      </script>
+  
+  <!--mudar de pagina-->
     <script>
         var p1 = document.getElementsByTagName('p')[1]//esse numero 0 entre os couchets representa que estou selecionando o primeiro paragrafo, se fosse o segundo seria [1] e assim sicessivamente
         document.write("Esta escrito assim: "+ p1.innerHTML)  
