@@ -8,10 +8,54 @@
     <!--faveincon-->
     <link rel="stylesheet" href="../css/estilo-texto.css">
     <title>Aula-10</title>
+    <style>
+        #area{
+            font:normal 20pt arial;
+            background-color: green;
+            color: white;
+            width: 200px;
+            height:200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <button onclick="VoltaPagina()" id="volta">Voltar</button>
     <button onclick="MudarPagina()" id="proximo">Next</button>
+    <center>
+        <div id="area">
+           <!-- ao invez de utilizarmos: <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()"></div> podemos usar o add.Eventlistener -->
+            interaja.....
+        </div>
+    </center>
+    <!--script da div-->
+        <script>
+        // analise do codigo: quando eu clicar na minha div eu vou
+            /*colocar esse:
+            var A = document.getElementById('area') vai funcionar em qual quer funcao por isso manterei isso aqui*/ 
+            var A = document.getElementById('area')
+
+                A.addEventListener('click',clicar)
+                A.addEventListener('mouseenter',entrar)
+                A.addEventListener('mouseout',sair)
+
+            function clicar(){ 
+            //var A = document.getElementById('area') //criar um objeto A que faz uma ligacao com o elemento area de id area que esta dentro do html.
+                A.innerText = 'Clicou!!'// E esse objeto vai mudar o conteudo dele para Clicou!!
+                A.style.background = 'red'
+            }
+            function entrar(){
+                A.innerText = 'Entrou...'
+                A.style.color = 'black'
+            }
+            function sair(){
+                A.innerText = 'Saiu!'
+                A.style.background = 'green'
+                A.style.color = 'white'
+            }
+        </script>
+    <!--script da div-->
         <!--mudar de pagina-->
         <script>
 
@@ -22,13 +66,11 @@
                     //esta funcao abaixo passar para a proxima pagina
     
             function MudarPagina() {
-                var novaPagina = "/Aula-10/ex011.html";//Definir para que pagina esse botao ira levar 
+                var novaPagina = "/Aula-10/exe011.html";//Definir para que pagina esse botao ira levar 
     
                 window.location.href = novaPagina;//Mudar para a proxima pagina
             }
-    
         </script>
-    
     <!--mudar de pagina-->
 </body>
 </html>

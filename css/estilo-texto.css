@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Oswald & family= Roboto & display=swap');
+
 
 *{
     font-family: 'Roboto', sans-serif;
@@ -21,6 +21,7 @@ p{
     color: black;
     float:right;
     border-color: yellow;
+    align-items: center;
 }
 #volta{
     background-color: yellow;
@@ -31,4 +32,5 @@ p{
     color: black;
     float:left;
     border-color: yellow;
+    align-items: center;
 }
