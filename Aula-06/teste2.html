@@ -26,7 +26,7 @@
                 //esta funcao abaixo passar para a proxima pagina
 
         function MudarPagina() {
-            var novaPagina = "/Aula-06/ex005.html";//Definir para que pagina esse botao ira levar 
+            var novaPagina = "/Aula-09/exe005.html";//Definir para que pagina esse botao ira levar 
 
             window.location.href = novaPagina;//Mudar para a proxima pagina
         }
@@ -52,5 +52,17 @@
                 document.write("Por favor, insira um número válido para o salário.")
             }
         </script>
+        <center>
+            <h2>Este código é uma aplicação JavaScript que utiliza o prompt do navegador para obter o salário de um usuário. O código faz o seguinte:</h2>
+        </center>
+        <ol>
+            <li>Utiliza a função prompt() para solicitar ao usuário que informe seu salário. A função retorna o valor inserido pelo usuário como uma string.</li>
+            <li>Converte o valor inserido, que é uma string, para um número de ponto flutuante usando a função parseFloat().</li>
+            <li>Verifica se o valor inserido pelo usuário é um número válido usando a função isNaN(). A função isNaN() retorna true se o valor passado for NaN (Not-a-Number), ou seja, se não for um número válido.</li>
+            <li>Se o valor inserido for um número válido, o código formata o salário como uma string no formato de moeda brasileira usando o método toLocaleString() do objeto Number.</li>
+            <li>O código então exibe o valor formatado do salário com a pergunta "Voce recebe: {ValorSalario} ?" utilizando a função document.write().</li>
+            <li>Se o valor inserido não for um número válido, o código exibe uma mensagem de erro pedindo para o usuário inserir um número válido para o salário.</li>
+        </ol>
+        <center><p>Este código é uma aplicação simples que demonstra como obter e validar a entrada do usuário, além de formatar o valor inserido.</p></center>
 </body>
 </html>
