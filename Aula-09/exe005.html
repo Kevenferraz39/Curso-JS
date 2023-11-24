@@ -61,5 +61,16 @@
         var d = document.querySelector('div#msg')
         d.style.color = 'red'
     </script>
+        <center>
+            <h2>O código apresentado em JavaScript, seleciona e modifica o conteúdo de dois elementos HTML, um parágrafo (p) e um div. Vamos analisar o código passo a passo:</h2>
+        </center>
+        <ol>
+            <li>A variável p1 recebe o primeiro elemento 'p' do documento. document.getElementsByTagName('p')[1] é usado para selecionar o elemento, onde o número entre os colchetes representa a posição do elemento (primeiro elemento tem índice 0).</li>
+            <li>A função document.write() é usada para exibir o conteúdo interno do parágrafo. A propriedade p1.innerHTML retorna o conteúdo HTML interno do elemento.</li>
+            <li>A cor do texto do parágrafo é alterada para vermelho, usando a propriedade CSS style.color.</li>
+            <li>A variável d recebe o elemento div com o ID 'msg'. Para selecionar o elemento div, usamos document.querySelector('div#msg'). A função querySelector() é usada para selecionar o primeiro elemento que corresponde ao seletor especificado.</li>
+            <li>A cor do texto do elemento div é alterada para vermelho, usando a propriedade CSS style.color.</li>
+        </ol>
+        <p>Como resultado, o texto do primeiro parágrafo e do elemento div com ID 'msg' terá sua cor alterada para vermelho.</p>
 </body>
 </html>
