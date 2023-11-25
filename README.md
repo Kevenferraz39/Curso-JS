@@ -31,7 +31,10 @@ Atividades desenvolvidas:
 - Arvore DOM;
 - Manipundo DOM;
 #
-- **Modulo D:** ...;
+- **Modulo D:**
+- Condicoes prat-1; 
+- Condicoes prat-2;
+- exercicios Java Script(1, 2, 3);
 #
 - **Modulo E:** ...;
 #

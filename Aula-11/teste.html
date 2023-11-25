@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--faveincon-->
+        <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
+    <!--faveincon-->
+    <link rel="stylesheet" href="../css/estilo-texto.css">
+    <script src="js/teste.js"></script>
+    <title>Aula-12</title>  
+</head>
+<body>
+    <button onclick="VoltaPagina()" id="volta">Voltar</button>
+    <button onclick="MudarPagina()" id="proximo">Next</button> 
+        <!--mudar de pagina-->
+            <script>
+
+                function VoltaPagina(){
+                        var voltaPagina = "/Aula-11/ex012.html"//Definir para que pagina esse botao ira levar
+                        window.location.href = voltaPagina;//Voltar para pagina anterior
+                    }
+                        //esta funcao abaixo passar para a proxima pagina
+        
+                function MudarPagina() {
+                    var novaPagina = "/Aula-11/detran.html";//Definir para que pagina esse botao ira levar 
+        
+                    window.location.href = novaPagina;//Mudar para a proxima pagina
+                }
+            </script>
+        <!--mudar de pagina-->
+</body>
+</html>
