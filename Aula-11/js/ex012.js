@@ -1,3 +1,15 @@
+function VoltaPagina(){
+    var voltaPagina = "/Aula-10/exe011.html"//Definir para que pagina esse botao ira levar
+    window.location.href = voltaPagina;//Voltar para pagina anterior
+}
+    //esta funcao abaixo passar para a proxima pagina
+
+function MudarPagina() {
+var novaPagina = "/Aula-11/teste.html";//Definir para que pagina esse botao ira levar 
+
+window.location.href = novaPagina;//Mudar para a proxima pagina
+}
+
 var nome = window.prompt("Qual o seu nome?");
 var vv = parseFloat(window.prompt("Qual a velocidade permitida pela via?"));
 var velocidade = parseFloat(window.prompt("Qual a sua velocidade?"));
