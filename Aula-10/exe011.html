@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
     <!--faveincon-->
     <link rel="stylesheet" href="../css/estilo-texto.css">
+    <script src="js/exe011.js"></script>
     <title>Aula-11</title>  
     <style>
         button{
@@ -51,35 +52,5 @@
         <li>A função calcula a soma de n1 e n2 e armazena o resultado na variável s.</li><br>
         <li>Por fim, a função atualiza o conteúdo HTML do elemento de saída (res) com a mensagem que apresenta os valores de n1, n2 e o resultado da soma.</li>
     </ol>
-        <!--somar-->
-            <script>
-                function somar(){
-                    var tn1 = document.getElementById('txtn1')//pode ser usado tambem o querySelector
-                    var tn2 = document.querySelector('input#txtn2')
-                    var res = document.getElementById('res')
-                    var n1 = Number(tn1.value)
-                    var n2 = Number(tn2.value)
-                    var s = n1 + n2
-                    res.innerHTML = `A soma entre ${n1} & ${n2} e igual a:<br><br> ${s}`
-                }
-            </script>
-            
-        <!--somar-->
-        <!--mudar de pagina-->
-            <script>
-
-                function VoltaPagina(){
-                        var voltaPagina = "/Aula-10/ex010.html"//Definir para que pagina esse botao ira levar
-                        window.location.href = voltaPagina;//Voltar para pagina anterior
-                    }
-                        //esta funcao abaixo passar para a proxima pagina
-        
-                function MudarPagina() {
-                    var novaPagina = "/Aula-11/ex012.html";//Definir para que pagina esse botao ira levar 
-        
-                    window.location.href = novaPagina;//Mudar para a proxima pagina
-                }
-            </script>
-        <!--mudar de pagina-->
 </body>
 </html>

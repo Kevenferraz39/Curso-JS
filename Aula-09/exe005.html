@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
     <!--faveincon-->
     <link rel="stylesheet" href="../css/estilo-texto.css">
+    <script src="exe.005.js"></script>
     <title>Aula-09</title>
     
     <style>
@@ -32,35 +33,7 @@
     <div id="msg">Clique em mim</div><br>
     <button onclick="VoltaPagina()" id="volta">Voltar</button>
     <button onclick="MudarPagina()" id="proximo">Next</button>
-        <!--mudar de pagina-->
-        <script>
-
-          function VoltaPagina(){
-                  var voltaPagina = "/Aula-06/teste2.html"//Definir para que pagina esse botao ira levar
-                  window.location.href = voltaPagina;//Voltar para pagina anterior
-              }
-                  //esta funcao abaixo passar para a proxima pagina
-  
-          function MudarPagina() {
-              var novaPagina = "/Aula-10/ex010.html";//Definir para que pagina esse botao ira levar 
-  
-              window.location.href = novaPagina;//Mudar para a proxima pagina
-          }
-  
-      </script>
-  
-  <!--mudar de pagina-->
-    <script>
-        var p1 = document.getElementsByTagName('p')[1]//esse numero 0 entre os couchets representa que estou selecionando o primeiro paragrafo, se fosse o segundo seria [1] e assim sicessivamente
-        document.write("Esta escrito assim: "+ p1.innerHTML)  
-        p1.style.color = 'red'
-        /* 
-        var d = document.getElementById('msg')
-        d.style.color ='blue'
-        */
-        var d = document.querySelector('div#msg')
-        d.style.color = 'red'
-    </script>
+    
         <center>
             <h2>O código apresentado em JavaScript, seleciona e modifica o conteúdo de dois elementos HTML, um parágrafo (p) e um div. Vamos analisar o código passo a passo:</h2>
         </center>

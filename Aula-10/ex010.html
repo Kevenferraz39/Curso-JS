@@ -7,6 +7,7 @@
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
     <!--faveincon-->
     <link rel="stylesheet" href="../css/estilo-texto.css">
+    <script src="js/ex010.js"></script>
     <title>Aula-10</title>
     <style>
         #area{
@@ -35,48 +36,6 @@
     <p>A função "entrar" muda o texto interno do elemento "area" para "Entrou..." e altera a cor do texto para preto.</p>
     <p>A função "sair" muda o texto interno do elemento "area" para "Saiu!" e altera a cor de fundo e a cor do texto de volta para suas respectivas cores iniciais (verde e branco).</p>
     <p>Nesse código, usamos o addEventListener para adicionar event listeners ao elemento "area", em vez de utilizar os atributos "onclick", "onmouseenter" e "onmouseout" no próprio elemento HTML. O addEventListener permite adicionar múltiplos event listeners ao mesmo elemento, enquanto os atributos "onclick", "onmouseenter" e "onmouseout" permitem apenas um event listener por elemento. Além disso, o addEventListener permite adicionar event listeners dinamicamente, o que pode ser útil em certos cenários.</p>
-    <!--script da div-->
-        <script>
-        // analise do codigo: quando eu clicar na minha div eu vou
-            /*colocar esse:
-            var A = document.getElementById('area') vai funcionar em qual quer funcao por isso manterei isso aqui*/ 
-            var A = document.getElementById('area')
 
-                A.addEventListener('click',clicar)
-                A.addEventListener('mouseenter',entrar)
-                A.addEventListener('mouseout',sair)
-
-            function clicar(){ 
-            //var A = document.getElementById('area') //criar um objeto A que faz uma ligacao com o elemento area de id area que esta dentro do html.
-                A.innerText = 'Clicou!!'// E esse objeto vai mudar o conteudo dele para Clicou!!
-                A.style.background = 'red'
-            }
-            function entrar(){
-                A.innerText = 'Entrou...'
-                A.style.color = 'black'
-            }
-            function sair(){
-                A.innerText = 'Saiu!'
-                A.style.background = 'green'
-                A.style.color = 'white'
-            }
-        </script>
-    <!--script da div-->
-        <!--mudar de pagina-->
-        <script>
-
-            function VoltaPagina(){
-                    var voltaPagina = "/Aula-09/exe005.html"//Definir para que pagina esse botao ira levar
-                    window.location.href = voltaPagina;//Voltar para pagina anterior
-                }
-                    //esta funcao abaixo passar para a proxima pagina
-    
-            function MudarPagina() {
-                var novaPagina = "/Aula-10/exe011.html";//Definir para que pagina esse botao ira levar 
-    
-                window.location.href = novaPagina;//Mudar para a proxima pagina
-            }
-        </script>
-    <!--mudar de pagina-->
 </body>
 </html>
