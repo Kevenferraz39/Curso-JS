@@ -7,29 +7,47 @@
         <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
     <!--faveincon-->
     <link rel="stylesheet" href="../css/estilo-texto.css">
-    <script src="js/detran.js"></script>
+    <script src="js/rodizio.js"></script>
     <title>Aula-12</title>
     <style>
+        .card{
+            margin-top: 50px;
+            padding: 20px;
+            width: 300px;
+            height: 220px;
+            border-style: solid;
+        }
         input{
             color: black;
             border-radius: 10px;
             padding: 10px;
             border-style: none;
             outline-color: yellow;
+            margin-left: -10px;
+            width: 100%;
+            text-align: center;
         }
         button{
             background-color: yellow;
             color: black;
             border-radius: 10px;
             padding: 10px;
+            width: 100%;
         }
     </style>  
 </head>
 <body>
     <button onclick="VoltaPagina()" id="volta">Voltar</button>
     <button onclick="MudarPagina()" id="proximo">Next</button> 
-        <center><label for="">Velocidade do carro:</label>&nbsp;<input type="number" name="txtvel" id="txtvel"> Km/h<br><br>
-        <button onclick="verificar()">Veriificar</button></center>
+        <center>
+            <div class="card">
+                <label for="">Digite seu nome:</label><br><br>
+                <input type="text" id="txtnome"><br><br>
+                <label for="">Digite o ultimos numeros da sua placa:</label><br><br>
+                <input type="text" id="txtplaca"><br><br>
+                <button onclick="validar()">Validar</button>
+            </div>
+        </center>
         <p id="res"></p>
 </body>
 </html>
