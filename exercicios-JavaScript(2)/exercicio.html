@@ -14,14 +14,23 @@
     <button onclick="VoltaPagina()" id="volta">Voltar</button>
     <button onclick="MudarPagina()" id="proximo">Next</button>
     <header>
-        <h1>Hora do dia</h1>
+        <h1>Verificador de idade</h1>
     </header>
     <section>
-        <div id="msg">
-           <!--o texto esta sendo disponibilizado diretamente do arquivo js ele exibe a msg agora sao ${} horas-->
+        <div id="">
+            <p>Ano de nacimento:
+                <input type="number" id="txtAno" name="txtAno" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" id="txtM" name="radsex" checked><label for="txtM">Masculino</label>
+                <input type="radio" id="txtF" name="radsex"><label for="txtF">Feminino</label>
+            </p>
+            <p>
+                <button onclick="verificar()" id="button">Verificar</button>
+            </p>
         </div>
-        <div id="foto">
-           
+        <div id="res">
+           Preencha os dados para ver o resltado !
         </div>
     </section>
     <footer>
