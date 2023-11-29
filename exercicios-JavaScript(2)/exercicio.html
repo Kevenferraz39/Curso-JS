@@ -36,29 +36,5 @@
     <footer>
         <p>&copy; Keven Ferraz</p>
     </footer>
-    <br><br>
-    <p>Esse código JavaScript parece fazer parte de uma aplicação web que realiza a verificação da idade e gênero com base no ano de nascimento fornecido pelo usuário. Vou explicar o que cada parte do código faz:</p>
-
-    <b>1. **Declaração da Função `verificar()`**:</b> 
-       <li> A função é definida para ser chamada quando algum evento ocorre (por exemplo, ao clicar em um botão).</li>
-    
-    <b>2. **Obtenção do Ano Atual e Elementos do Documento**:</b>
-       <li>`var data = new Date()`: Cria um objeto `Date` para obter a data atual.</li>
-       <li>`var ano = data.getFullYear()`: Extrai o ano atual do objeto `Date`.</li>
-       <li>`var fano = document.getElementById('txtAno')`: Obtém o elemento HTML com o id 'txtAno'(presumivelmente um campo de entrada para o ano de nascimento).</li>
-       <li>`var res = document.getElementById('res')`: Obtém o elemento HTML com o id 'res' (presumivelmente um local onde os resultados serão exibidos).</li>
-    <b>3. **Verificação do Ano de Nascimento**:</b>
-       <li>`if(fano.value.length == 0 || fano.value > ano)`: Verifica se o campo de entrada para o ano está vazio ou se contém um ano maior que o ano atual. Se verdadeiro, exibe um alerta de erro.</li>
-    
-    <b>4. **Manipulação dos Elementos do Documento e Exibição de Resultados**:</b>
-       <li> Caso contrário, exibe um alerta indicando que está tudo bem.</li>
-        <li>Obtém o valor do botão de rádio selecionado para determinar o gênero (homem ou mulher).</li>
-        <li>Calcula a idade com base no ano de nascimento fornecido.</li>
-        <li>Cria um elemento de imagem (`<img>`) dinamicamente.</li>
-        <li>Define o ID da imagem como 'imagem'.</li>
-        <li>Com base no gênero e na faixa etária, define o caminho da imagem.</li>
-        <li> Atualiza o conteúdo do elemento com o id 'res' para cumprimentar o usuário, mostrar a idade e anexa a imagem criada dinamicamente.</li>
-    
-    <p>Em resumo, o código verifica se o ano de nascimento fornecido é válido, e se for, calcula a idade, determina o gênero selecionado e exibe uma mensagem de cumprimento personalizada junto com uma imagem correspondente à faixa etária e ao gênero.</p>
 </body>
 </html>
