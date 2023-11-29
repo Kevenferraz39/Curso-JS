@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mensagens</title>
+     <!--faveincon-->
+     <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
+     <!--faveincon-->
+    
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body onload="carregar()">
+    <button onclick="VoltaPagina()" id="volta">Voltar</button>
+    <button onclick="MudarPagina()" id="proximo">Next</button>
+    <header>
+        <h1>Mensagens</h1>
+    </header>
+    <section>
+        <div id=""> 
+            <p>
+                O que voce esta sentido?
+            </p>
+            <hr>
+            Eu estou: <br><br>
+            <form id="myForm">
+                <input type="radio" id="option1" name="option" value="option1">
+                <label for="option1">Triste</label>
+                <input type="radio" id="option2" name="option" value="option2">
+                <label for="option2">Feliz</label>
+                <input type="radio" id="option3" name="option" value="option3">
+                <label for="option3">Com raiva</label>
+                <input type="radio" id="option4" name="option" value="option4">
+                <label for="option4">Magoada</label>
+                <input type="radio" id="option5" name="option" value="option5">
+                <label for="option5">Com medo</label>
+                <input type="radio" id="option6" name="option" value="option6">
+                <label for="option6">Ansiosa</label><br><br>
+                <input type="submit" value="Mensagem" id="button">
+            </form>
+        </div>
+        <div id="res">
+           Preencha os dados para ver o resltado !
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Keven Ferraz</p>
+    </footer>
+    <script src="exercicio.js"></script>
+</body>
+</html>
