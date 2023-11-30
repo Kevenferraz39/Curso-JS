@@ -36,7 +36,11 @@ Atividades desenvolvidas:
 - Condicoes prat-2;
 - exercicios Java Script(1, 2, 3);
 #
-- **Modulo E:** ...;
+- **Modulo E:** 
+- Repeticao com testelogico no inicio (Wile);
+- Repeticao com testelogico no final (Dowile);
+- Repeticao com controle (For);
+- Exercicios;
 #
 - **Modulo F:** ...;
 

@@ -7,7 +7,7 @@ function VoltaPagina(){
     //esta funcao abaixo passar para a proxima pagina
 
 function MudarPagina() {
-var novaPagina = "/Aula-11/ex016.html";//Definir para que pagina esse botao ira levar  
+var novaPagina = "/Aula-12/ex016.html";//Definir para que pagina esse botao ira levar  
 
 window.location.href = novaPagina;//Mudar para a proxima pagina
 }
