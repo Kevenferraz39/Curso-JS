@@ -12,7 +12,7 @@ var novaPagina = "/Aula-12/ex017.html";//Definir para que pagina esse botao ira 
 window.location.href = novaPagina;//Mudar para a proxima pagina
 }
 
-//repeticao while
+//repeticao while / do while
 
     var c = 1
         while(c < 6){
