@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exerrcicio</title>
+     <!--faveincon-->
+     <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
+     <!--faveincon-->
+    <script src="exercicio.js"></script>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body onload="carregar()">
+    <button onclick="VoltaPagina()" id="volta">Voltar</button>
+    <button onclick="MudarPagina()" id="proximo">Next</button>
+    <header>
+        <h1>Vamos contar</h1>
+    </header>
+    <section>
+        <p>Contagem</p>
+        <hr>
+        <div id="dados">
+            <p>
+                Inicio:
+                <input type="number" name="txtIn" id="txtIn">
+            </p>
+            <p>
+                Fim:
+                <input type="number" name="txtFn" id="txtFn">
+            </p>
+            <p>
+                Passo:
+                <input type="number" name="txtP" id="txtP">
+            </p>
+          <button onclick="validar()" id="button">Validar</button><br><br>
+        </div>
+        <div id="res">
+            Preparando a contagem.......
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Keven Ferraz</p>
+    </footer>
+</body>
+</html>
