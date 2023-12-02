@@ -1,7 +1,7 @@
 //mudar a pagina
 
 function VoltaPagina(){
-    var voltaPagina = "/Aula-12/ex016.html"//Definir para que pagina esse botao ira levar
+    var voltaPagina = "/exercicios-JavaScript(4)/exercicio.html"//Definir para que pagina esse botao ira levar
     window.location.href = voltaPagina;//Voltar para pagina anterior
 }
     //esta funcao abaixo passar para a proxima pagina
@@ -12,6 +12,22 @@ var novaPagina = "/exercicios-JavaScript(5)/exercicio.html";//Definir para que p
 window.location.href = novaPagina;//Mudar para a proxima pagina
 }
 
+//teste
+document.getElementById('btnReload').addEventListener('click', function() {
+    // Recarrega a página
+    location.reload();
+});
+function showPopup() {
+    var popup = document.getElementById('popup');
+    popup.
+    
+style.display = 'block';
+}
+
+function hidePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+}
 //exercicio 
 
 function validar(){
