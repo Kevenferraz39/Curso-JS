@@ -20,6 +20,10 @@ div{
 p{
     text-align: center;
 }
+section h1{
+    margin-top:-10px;
+    text-align: center;
+}
 footer{
     color: white;
     text-align: center;
@@ -59,4 +63,12 @@ footer{
     float:left;
     border-color: rgb(0, 30, 255);
     align-items: center;
+}
+#popup {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }

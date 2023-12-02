@@ -12,7 +12,7 @@ var novaPagina = "/exercicios-JavaScript(5)/exercicio.html";//Definir para que p
 window.location.href = novaPagina;//Mudar para a proxima pagina
 }
 
-//teste
+//Recarregar a pagina !
 document.getElementById('btnReload').addEventListener('click', function() {
     // Recarrega a página
     location.reload();
@@ -52,15 +52,15 @@ function validar(){
         if(i <  f){
             //contagem cresente
              for(let c = 1; c <= f; c+= p){
-            res.innerHTML += `${c} \u{f449}`
+            res.innerHTML += `${c} \u{1F449}`
         }
-        res.innerHTML += `\u{1F3C}`
+        res.innerHTML += `\u{1F3C1}`
         } else{
             //contagem regreciva
             for(let c = i; c>= f; c-= p){
-                res.innerHTML += `${c} \u{1F3C}`
+                res.innerHTML += `${c} \u{1F449}`
             }
         }
-        res.innerHTML += `${c} \u{f449}`
+        res.innerHTML += `${c} \u{1F3C1}`
     }
 }

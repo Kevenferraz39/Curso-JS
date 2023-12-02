@@ -7,11 +7,26 @@ function VoltaPagina(){
     //esta funcao abaixo passar para a proxima pagina
 
 function MudarPagina() {
-var novaPagina = "/exercicios-JavaScript(5)/exercicio.html";//Definir para que pagina esse botao ira levar 
+var novaPagina = "/exercicios-JavaScript(5) /exercicio.html";//Definir para que pagina esse botao ira levar 
 
 window.location.href = novaPagina;//Mudar para a proxima pagina
 }
+//teste
+document.getElementById('btnReload').addEventListener('click', function() {
+    // Recarrega a página
+    location.reload();
+});
+function showPopup() {
+    var popup = document.getElementById('popup');
+    popup.
+    
+style.display = 'block';
+}
 
+function hidePopup() {
+    var popup = document.getElementById('popup');
+    popup.style.display = 'none';
+}
 //exercicio 
 
 function validar(){
@@ -34,17 +49,17 @@ function validar(){
             p = 1
         }
         if(i <  f){
-            //contagem cresente
-             for(let c = 1; c <= f; c+= p){
-            res.innerHTML += `${c} \u{f449}`
-        }
-        res.innerHTML += `\u{1F3C}`
-        } else{
-            //contagem regreciva
-            for(let c = i; c>= f; c-= p){
-                res.innerHTML += `${c} \u{1F3C}`
+            //contagem
+            for(let c = 1; c <= f; c+= p){
+                res.innerHTML += `${c} \u{1F449}`
             }
-        }
-        res.innerHTML += `${c} \u{f449}`
+            res.innerHTML += `\u{1F3C1}`
+            } else{
+                //contagem regreciva
+                for(let c = i; c>= f; c-= p){
+                    res.innerHTML += `${c} \u{1F449}`
+                }
+            }
+            res.innerHTML += `${c} \u{1F3C1}`
     }
 }
