@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exerrcicio</title>
+     <!--faveincon-->
+     <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
+     <!--faveincon-->
+     <script src="exercicio.js"></script>
+    <link rel="stylesheet" href="exercicio.css">
+</head>
+<body>
+    <button onclick="VoltaPagina()" id="volta">Voltar</button>
+    <button onclick="MudarPagina()" id="proximo">Next</button>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <img src="download-removebg-preview.png" alt=""id="btnReload" onmouseover="showPopup()" onmouseout="hidePopup()" width="50" margin="0">
+        <div id="popup">Recarregar a página</div>
+        <h1>Contagem</h1>
+        <hr>
+        <div id="dados">
+            <p>Numero: <input type="number" name="txtN" id="txtN"></input><br><br>
+            <button onclick="tabuada()" id="button">Gerar tabuada</button></p>
+        </div>
+        <div>
+           <Select name="tabuada" id="selTab" size="10">
+            <option>Digite um numero acima</option>
+           </Select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Keven Ferraz</p>
+    </footer>
+    <script src="exercicio.js"></script>
+</body>
+</html>
