@@ -42,8 +42,12 @@ Atividades desenvolvidas:
 - Repeticao com controle (For);
 - Exercicios;
 #
-- **Modulo F:** ...;
-
+- **Modulo F:** 
+- Variaveis compostas;
+- Uso de funções e eventosd;
+- Passagem de parâmetros; 
+- Exercícios propostos;
+- Proximos passos;
 
 ## 📂Tecnologias utilizadas
 
