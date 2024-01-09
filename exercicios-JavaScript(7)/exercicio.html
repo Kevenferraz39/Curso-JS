@@ -3,33 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Variaveis compostas</title>
+    <title>Exerrcicio</title>
      <!--faveincon-->
      <link rel="shortcut icon" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" type="image/x-icon">
-     <!--faveincon-->  
+     <!--faveincon-->
+     <script src="exercicio.js"></script>
     <link rel="stylesheet" href="exercicio.css">
 </head>
 <body>
     <button onclick="VoltaPagina()" id="volta">Voltar</button>
     <button onclick="MudarPagina()" id="proximo">Next</button>
     <header>
-        <h1>Função</h1>
+        <h1>Ultimo exercicio proposto</h1>
     </header>
     <section>
-        <div id=""> 
-            <p>
-                <input type="text" name="numero" id="numero">
-            </p>
-            <p>
-                <button onclick="verificar(parimp)" id="button">Verificar</button>
-            </p>
+        <p>Digite um número entre 1 & 100</p>
+        <hr>
+        <div id="dados">
+            <p>Número: <input type="number" name="fnum" id="fnum"></input><br><br>
+            <button onclick="adicionar()" id="button">Adicionar</button></p>
         </div>
         <div id="res">
+           <Select name="Flista" id="Flista" size="6">
+            <option></option>
+           </Select>
+           <br><br>
+           <button onclick="Finalizar()" id="button">Finalizar</button>
         </div>
     </section>
     <footer>
         <p>&copy; Keven Ferraz</p>
     </footer>
-    <script src="js/ex019.js"></script>  
+    <script src="exercicio.js"></script>
 </body>
 </html>
