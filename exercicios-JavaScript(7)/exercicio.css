@@ -65,7 +65,10 @@ footer{
     align-items: center;
 }
 #Flista{
-    width: 150px;
+    width: 100%;
+    background-color: #cccccc00;
+    border-radius: 2px;
+    box-shadow:3px 5px 0 2px rgb(4, 18, 126);
 }
 #popup {
     display: none;
